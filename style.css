@@ -1,0 +1,279 @@
+html{
+    scroll-behavior: ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+}
+header{
+    background-color: #111;
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+nav a:hover{
+    color: orange;
+}
+#home{
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #ddd;
+}
+#home h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+#home p{
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+button{
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 12px 25px ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #111;
+}
+section{
+    padding: 70px 50px;
+}
+section h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#services{
+    text-align: center;
+}
+#services div{
+    background-color: white;
+    padding: 30px;
+    margin: 15px auto;
+    max-width: 500px;
+    border-radius: 10px;
+}
+form{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input textarea{
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea{
+    height: 120px;
+}
+@media (max-width: 600px)
+
+header{
+    padding: 20px;
+    flex-direction: column;
+    gap: 15px;
+} 
+nav a{
+    margin: 0 8px;
+}
+  #home h1{
+    font-size: 35px;
+  }  
+  #home p{
+    font-size: 18px;
+  }
+  section{
+    padding: 50px 20px;
+  }
+  services-container{
+    display: flex;
+    justify-self: center;
+    align-items: stretch;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  services-card{
+    background-color: white;
+    padding: 30px;
+    width: 250px;
+    text-align:center ;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0. 1)
+            transition: 0.3s;
+  }
+  .services-card:hover{
+     transform: translateY(-10px);
+  }
+  #project{
+    padding: 80px 20px;
+    text-align: center;
+  }
+  .project-container{
+       display: flex;
+       justify-content: center;
+       gap: 30px;
+       flex-wrap: wrap;
+  }
+  .project-card{
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0. 1)
+                     transition: 0.3s;
+  }
+  .project-card:hover{
+    transform: translateY(-10px);
+  }
+  .project-card h3{
+     margin-bottom: 10px;
+  }
+  .project-card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  footer{
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  #skills{
+    text-align: ;
+  }
+  .skills-container{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+  }
+  .skill{
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+  }
+  .skill:hover{
+     transform:translateY(-8px)
+  }
+  section{
+    animation: fadeIn 1s ease-in;
+  }
+  @keyframes fadeIn{
+    form{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+  }
+  #top-button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+  }
+  .project-card:hover{
+    transform: translateY(-10px);
+    transition: 0.3s;
+  }
+  .dark-mood{
+    background-color: #222;
+    color: white;
+  }
+  .dark-mood .services-card:
+  .dark-mood .project-card
+  .dark-mood .skill {
+    background-color: #333;
+  }
+  #contct{
+    padding: 50px 20px;
+    text-align: center;
+  }
+  #contact form{
+    max-width: 500px;
+    margin: auto;
+  }
+  #contact input,
+  #contact textarea{
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  #contact button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  #contact button{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  #contact button:hover{
+     transform: scale(1.05);
+  }
+  footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+  }
+  .project-card button{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.3s;
+  }
+  .project-card button:hover{
+    background-color: orange;
+    transform: scale(1.05);
+  }
